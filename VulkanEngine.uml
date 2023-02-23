@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XPD:PROJECT xmlns:XPD="http://www.staruml.com" version="1">
+<XPD:HEADER>
+<XPD:SUBUNITS>
+</XPD:SUBUNITS>
+<XPD:PROFILES>
+</XPD:PROFILES>
+</XPD:HEADER>
+<XPD:BODY>
+<XPD:OBJ name="DocumentElement" type="UMLProject" guid="9TjoKbhqsUaSR0bFK1E82gAA">
+<XPD:ATTR name="Title" type="string">VulkanEngine</XPD:ATTR>
+<XPD:ATTR name="#OwnedElements" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLPackage" guid="w+YfxKE1LEqWJ0T76tNlpgAA">
+<XPD:ATTR name="Name" type="string">Resource Manager</XPD:ATTR>
+<XPD:REF name="Namespace">9TjoKbhqsUaSR0bFK1E82gAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[1]" type="UMLPackage" guid="bw+Ew+G69UeEZ+r86DGn8wAA">
+<XPD:ATTR name="Name" type="string">Renderer</XPD:ATTR>
+<XPD:REF name="Namespace">9TjoKbhqsUaSR0bFK1E82gAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:BODY>
+</XPD:PROJECT>

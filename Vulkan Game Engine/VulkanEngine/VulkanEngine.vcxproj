@@ -156,11 +156,42 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="shaders\shader.frag" />
     <None Include="shaders\shader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="keyboard_text.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="VE_buffer.cpp" />
+    <ClCompile Include="VE_camera.cpp" />
+    <ClCompile Include="VE_descriptors.cpp" />
+    <ClCompile Include="VE_render_system.cpp" />
+    <ClCompile Include="VE_device.cpp" />
+    <ClCompile Include="VE_model.cpp" />
+    <ClCompile Include="VE_pipeline.cpp" />
+    <ClCompile Include="VE_renderer.cpp" />
+    <ClCompile Include="VE_swap_chain.cpp" />
+    <ClCompile Include="VE_texture.cpp" />
+    <ClCompile Include="VE_window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app.hpp" />
+    <ClInclude Include="keyboard_test.hpp" />
+    <ClInclude Include="VE_buffer.hpp" />
+    <ClInclude Include="VE_camera.hpp" />
+    <ClInclude Include="VE_descriptors.hpp" />
+    <ClInclude Include="VE_frame_info.hpp" />
+    <ClInclude Include="VE_renderer.hpp" />
+    <ClInclude Include="VE_device.hpp" />
+    <ClInclude Include="VE_gameobject.hpp" />
+    <ClInclude Include="VE_model.hpp" />
+    <ClInclude Include="VE_pipeline.hpp" />
+    <ClInclude Include="VE_render_system.hpp" />
+    <ClInclude Include="VE_swap_chain.hpp" />
+    <ClInclude Include="VE_texture.hpp" />
+    <ClInclude Include="VE_utils.h" />
+    <ClInclude Include="VE_window.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
