@@ -31,3 +31,7 @@
 *.exe
 *.out
 *.app
+*.db
+Vulkan Game Engine/.vs/VulkanEngine/v17/Browse.VC.db
+
+Vulkan Game Engine/.vs/VulkanEngine/v17/Browse.VC.db

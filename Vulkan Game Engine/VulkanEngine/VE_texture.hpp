@@ -17,7 +17,7 @@ namespace VE {
             void loadTexture(const std::string& fpath);
         };
 
-        void createTextureImage(const std::string& fpath, Builder builder);
+        void createTextureImage(VEDevice& device, Builder& builder);
         void createImage(uint32_t width, uint32_t height, VkFormat format, VkImageTiling tiling, VkImageUsageFlags usage, VkMemoryPropertyFlags properties, VkImage& image, VkDeviceMemory& imageMemory);
         ~VETexture();
 
